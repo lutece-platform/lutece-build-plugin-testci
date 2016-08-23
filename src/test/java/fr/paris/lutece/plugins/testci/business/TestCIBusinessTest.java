@@ -67,6 +67,7 @@ public class TestCIBusinessTest extends LuteceTestCase
         testCIStored = TestCIHome.findByPrimaryKey( testCI.getId( ) );
         assertNull( testCIStored );
         
+        assertTrue( "Test that assertions are reported by jenkins", false );
     }
 
 }
