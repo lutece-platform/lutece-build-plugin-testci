@@ -58,6 +58,7 @@ public class HellociApp extends MVCApplication
     @View( value = VIEW_HOME, defaultView = true )
     public XPage viewHome( HttpServletRequest request )
     {
+
         return getXPage( TEMPLATE_XPAGE, request.getLocale(  ) );
     }
 }
