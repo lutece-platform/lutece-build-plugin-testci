@@ -38,6 +38,8 @@ import fr.paris.lutece.portal.util.mvc.xpage.MVCApplication;
 import fr.paris.lutece.portal.util.mvc.xpage.annotations.Controller;
 import fr.paris.lutece.portal.web.xpages.XPage;
 
+import java.util.stream.Stream;
+
 import javax.servlet.http.HttpServletRequest;
 
 
@@ -58,6 +60,8 @@ public class HellociApp extends MVCApplication
     @View( value = VIEW_HOME, defaultView = true )
     public XPage viewHome( HttpServletRequest request )
     {
+        Stream<String> stream = Stream.generate(() -> "test").limit(10);
+        String[] strArr = stream.toArray(String[]::new);
         return getXPage( TEMPLATE_XPAGE, request.getLocale(  ) );
     }
 }
