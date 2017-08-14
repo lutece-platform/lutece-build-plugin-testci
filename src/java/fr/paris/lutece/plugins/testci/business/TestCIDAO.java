@@ -207,4 +207,12 @@ public final class TestCIDAO implements ITestCIDAO
         daoUtil.free( );
         return testCIList;
     }
+
+    /**
+     * {@inheritDoc }
+     */
+    public void untested( Plugin plugin )
+    {
+        System.out.println("This is not tested and should be reported as such by our tools");
+    }
 }

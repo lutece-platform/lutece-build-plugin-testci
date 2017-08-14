@@ -62,6 +62,9 @@ public class TestCIBusinessTest extends LuteceTestCase
         // List test
         TestCIHome.getTestCIsList();
 
+        // List test
+        TestCIHome.getTestCIsReferenceList();
+
         // Delete test
         TestCIHome.remove( testCI.getId( ) );
         testCIStored = TestCIHome.findByPrimaryKey( testCI.getId( ) );
