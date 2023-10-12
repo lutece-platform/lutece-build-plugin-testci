@@ -38,4 +38,10 @@
         </dependency>
     </dependencies>
 
+    <scm>
+        <connection>scm:git:https://github.com/lutece-platform/lutece-build-plugin-testci.git</connection>
+        <developerConnection>scm:git:https://github.com/lutece-platform/lutece-build-plugin-testci.git</developerConnection>
+        <url>https://github.com/lutece-platform/lutece-build-plugin-testci.git</url>
+    </scm>
+
 </project>
