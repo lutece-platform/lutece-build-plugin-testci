@@ -11,7 +11,7 @@
     <artifactId>plugin-testci</artifactId>
     <packaging>lutece-plugin</packaging>
     <version>1.0.0-SNAPSHOT</version>
-    <name>Lutece testci plugin</name>
+    <name>Lutece testci plugin</name> 
 
     <repositories>
         <repository>
