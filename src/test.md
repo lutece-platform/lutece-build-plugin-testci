@@ -21,3 +21,4 @@ essai6 après migration vers Podman/Ubuntu
 essai7 après migration vers Podman/Ubuntu
 essai8 après migration vers Podman/Ubuntu
 essai9 après migration vers Podman/Ubuntu
+essai jdk 17
