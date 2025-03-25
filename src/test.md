@@ -24,3 +24,4 @@ essai9 après migration vers Podman/Ubuntu
 essai jdk 17
 essai nexus 3.71.0
 essai certigna
+essai execution parallème Jenkins
