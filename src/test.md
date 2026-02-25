@@ -28,3 +28,4 @@ essai execution parallème Jenkins
 Essai avec temurin17 pour l'excution de SonarQube
 Ajout des MAVEN_SETTINGS manquants
 Désactivation du HTTP_BLOCKER
+Désactivation du profile maven 'integration-test' inutilisé
